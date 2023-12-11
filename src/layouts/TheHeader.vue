@@ -33,7 +33,9 @@
 							</RouterLink>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/about">About</a>
+							<RouterLink class="nav-link" active-class="active" to="/nested"
+								>Nested
+							</RouterLink>
 						</li>
 					</ul>
 					<div class="d-flex">

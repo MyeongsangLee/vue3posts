@@ -12,4 +12,8 @@ export function getPosts() {
 	return posts;
 }
 
+export function getPostById(id) {
+	return posts.find(item => item.id === id);
+}
+
 // export default getPosts;
